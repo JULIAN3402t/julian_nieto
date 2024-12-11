@@ -1,0 +1,30 @@
+/* Archivo style.css */
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.form-container form {
+    display: none;
+}
+
+.form-container form.active {
+    display: block;
+}
+
+.toggle-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    cursor: pointer;
+}
